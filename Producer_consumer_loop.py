@@ -50,7 +50,6 @@ if __name__ == "__main__":
         executor.submit(producer, pipeline, event)
         executor.submit(consumer, pipeline, event)
 
- 
 
         time.sleep(0.1)
         logging.info("Main: about to set event")
